@@ -97,12 +97,14 @@
 		BFE3F8C11D59A18300380B83 /* img2ascii */ = {
 			isa = PBXGroup;
 			children = (
-				BFE3F8C21D59A18300380B83 /* AppDelegate.swift */,
-				BFE3F8C41D59A18300380B83 /* ViewController.swift */,
-				BFE3F8C61D59A18300380B83 /* Main.storyboard */,
+				BFE3F8F61D59ADFD00380B83 /* Storyboards */,
+				BFE3F8F51D59ADE300380B83 /* Supporting Files */,
+				BFE3F8F41D59ADD100380B83 /* Application */,
+				BFE3F8F31D59ADC800380B83 /* Models */,
+				BFE3F8F21D59ADC300380B83 /* Views */,
+				BFE3F8F11D59ADBE00380B83 /* View Models */,
+				BFE3F8F01D59AD3E00380B83 /* View Controllers */,
 				BFE3F8C91D59A18300380B83 /* Assets.xcassets */,
-				BFE3F8CB1D59A18300380B83 /* LaunchScreen.storyboard */,
-				BFE3F8CE1D59A18300380B83 /* Info.plist */,
 			);
 			path = img2ascii;
 			sourceTree = "<group>";
@@ -123,6 +125,60 @@
 				BFE3F8E41D59A18400380B83 /* Info.plist */,
 			);
 			path = img2asciiUITests;
+			sourceTree = "<group>";
+		};
+		BFE3F8F01D59AD3E00380B83 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3F8C41D59A18300380B83 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BFE3F8F11D59ADBE00380B83 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		BFE3F8F21D59ADC300380B83 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BFE3F8F31D59ADC800380B83 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BFE3F8F41D59ADD100380B83 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3F8C21D59A18300380B83 /* AppDelegate.swift */,
+				BFE3F8CB1D59A18300380B83 /* LaunchScreen.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		BFE3F8F51D59ADE300380B83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3F8CE1D59A18300380B83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFE3F8F61D59ADFD00380B83 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BFE3F8C61D59A18300380B83 /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
